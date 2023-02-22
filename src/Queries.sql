@@ -1,3 +1,4 @@
+use university;
 #1
 select name from instructor where dept_name = "Biology";
 #2
@@ -153,6 +154,7 @@ create table scholarship (
   foreign key (student_id) references student(ID));
 #55  -- insert a record to table
 insert into scholarship values("00001","00128" ,40000);
+
 
 
 
